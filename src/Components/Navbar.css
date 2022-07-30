@@ -1,0 +1,29 @@
+button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 2px;
+    color: #ffffff;
+}
+.logo{
+    color: #2c295d;
+    font-weight: 900;
+}
+.trial-btn{
+    background: #2c295d;
+    /* border: none; */
+    transition: 0.4s;
+}
+.trial-btn:hover{
+        background: rgb(255, 162, 0);
+}
+.login-btn{
+    background: rgb(255, 162, 0);
+    transition: 0.4s;
+}
+.login-btn:hover{
+        background: rgb(255, 132, 0);
+}
+.me-auto{
+    display: flex;
+    justify-content: end;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from './pages/Login/Login';
+import Navbar from './Components/Navbar';
+import { useState } from 'react';
 
 function App() {
+//   const adminUser = {
+//     email: 'eve.holt@reqres.in',
+//     password: '5cityslicka'
+//  }
+//  const [user, setUser] = useState({name: '', email: ''});
+//  const [error, setError] = useState('');
+//  const Login = details => {
+//   console.log(details);
+//  }
+//  const LogOut = () => {
+//   console.log('Logout')
+//  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <div className="ratio"> */}
+      <div className="content">
+      <Navbar/>
+      <Login/>
+      {/* </div> */}
+     </div>
+
     </div>
   );
 }
